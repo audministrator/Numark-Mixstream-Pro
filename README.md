@@ -7,7 +7,8 @@ This PR holds the first **Numark Mixstream Pro & Pro GO** controller mapping.
 
 **Code optimization:** Code reviewed for un-used functions and variable scoping
 
-**Mapping upgrades:** Lots of changes versus last published **version v12** 
+**Mapping upgrades:** Lots of changes versus last published **version v12**
+
 Here : https://mixxx.discourse.group/t/numark-mixstream-pro-mapping/24858/33?u=ptrex
 
 This version has been tested on **MIXXX 2.5.0**

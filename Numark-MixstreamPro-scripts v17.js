@@ -1458,17 +1458,18 @@ MixstreamPro.EffectToggleSwitch = function(channel, control, value, status, grou
          
         engine.setValue("[EffectRack1_EffectUnit2_Effect3]", "enabled", 0);
     }
- 
-    if (channel === 4 && value === 1 && MixstreamPro.toggle4 == false || channel === 4 && value === 2 && MixstreamPro.toggle4 == false) {
+    
+    // To Do FX button 4
+    // if (channel === 4 && value === 1 && MixstreamPro.toggle4 == false || channel === 4 && value === 2 && MixstreamPro.toggle4 == false) {
          
-    } else {
-    }
+    // } else {
+    // }
 
-    if (channel === 5 && value === 1 && MixstreamPro.toggle4 == false || channel === 5 && value === 2 && MixstreamPro.toggle4 == false) {
+    // if (channel === 5 && value === 1 && MixstreamPro.toggle4 == false || channel === 5 && value === 2 && MixstreamPro.toggle4 == false) {
          
-    } else {
+    // } else {
      
-    }
+    //}
 }
 
 
@@ -1600,3 +1601,4 @@ MixstreamPro.Effectbutton4 = function(channel, control, value, status, group) {
     } else
     if (value === 0) { return }
 }
+

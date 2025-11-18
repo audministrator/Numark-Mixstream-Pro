@@ -1,5 +1,5 @@
 # Numark-Mixstream-Pro
-This PR holds the  **Numark Mixstream Pro & Pro GO** controller mapping.
+This repo holds the  **Numark Mixstream Pro & Pro GO** controller mapping.
 
 **Refactoring and fixes:** N/A
 

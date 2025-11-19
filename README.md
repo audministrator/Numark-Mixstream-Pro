@@ -11,4 +11,15 @@ This repo holds the  **Numark Mixstream Pro & Pro GO** controller mapping.
 
 Here : https://mixxx.discourse.group/t/numark-mixstream-pro-mapping/24858/33?u=ptrex
 
+changes to v12
+
+* Added MoveFocusForward and show_microphone binding
+* Many variables are now declared with let instead of var
+* pregain value now set during play_aux_1
+* Play button is now a script with shift support
+* Track_loaded now removes loops and only sets LEDs on hotcue buttons that are loaded
+* Hotcue toggle now works when the song is playing
+* Saved loops can now be triggered from a hotcue
+* Default autoloop is doubled
+
 This version has been tested on **MIXXX 2.5.0**

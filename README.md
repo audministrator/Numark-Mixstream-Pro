@@ -11,8 +11,7 @@ This repo holds the  **Numark Mixstream Pro & Pro GO** controller mapping.
 
 Here : https://mixxx.discourse.group/t/numark-mixstream-pro-mapping/24858/33?u=ptrex
 
-changes to v12
-
+Changes : 
 * Added MoveFocusForward and show_microphone binding
 * Many variables are now declared with let instead of var
 * pregain value now set during play_aux_1

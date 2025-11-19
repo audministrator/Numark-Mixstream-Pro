@@ -14,7 +14,7 @@ https://github.com/audministrator/Numark-Mixstream-Pro/wiki/Numark-Mixstream-Pro
 
 Here : https://mixxx.discourse.group/t/numark-mixstream-pro-mapping/24858/33?u=ptrex
 
-Changes : 
+**Changes : **
 * Added MoveFocusForward and show_microphone binding
 * Many variables are now declared with let instead of var
 * pregain value now set during play_aux_1

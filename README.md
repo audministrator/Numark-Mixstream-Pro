@@ -1,6 +1,6 @@
 # Numark-Mixstream-Pro
 This repo holds the  **Numark Mixstream Pro & Pro GO** controller mapping. \
-Here you can find the documentation : 
+Here you can find the documentation : \
 https://github.com/audministrator/Numark-Mixstream-Pro/wiki/Numark-Mixstream-Pro-Documentation
 
 

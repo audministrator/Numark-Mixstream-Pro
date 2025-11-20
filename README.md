@@ -23,5 +23,6 @@ Here : https://mixxx.discourse.group/t/numark-mixstream-pro-mapping/24858/33?u=p
 * Hotcue toggle now works when the song is playing
 * Saved loops can now be triggered from a hotcue
 * Default autoloop is doubled
+* Vinyl Break Effect
 
 

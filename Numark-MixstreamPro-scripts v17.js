@@ -84,7 +84,7 @@ MixstreamPro.vuCallback = function(value, group, control) {
             level = MixstreamPro.maxVuLevel;
         }
 
-        if (MixstreamPro.prevVuLevelL !=== level) {
+        if (MixstreamPro.prevVuLevelL !== level) {
             midi.sendShortMsg(0xBF, 0x20, level);
             MixstreamPro.prevVuLevelL = level;
         }
@@ -97,7 +97,7 @@ MixstreamPro.vuCallback = function(value, group, control) {
             level = MixstreamPro.maxVuLevel
         }
 
-        if (MixstreamPro.prevVuLevelR !=== level) {
+        if (MixstreamPro.prevVuLevelR !== level) {
             midi.sendShortMsg(0xBF, 0x21, level);
             MixstreamPro.prevVuLevelR = level;
         }
@@ -109,28 +109,28 @@ MixstreamPro.WIFI = true
  
 MixstreamPro.Play_Aux_1 = function(channel, control, value, status, group) {
     if (value === 127) {
-        if (MixstreamPro.WIFI  true) {
+        if (MixstreamPro.WIFI === true) {
             engine.setValue("[Auxiliary1]", "master", 1)
             engine.setValue("[Auxiliary1]", "pregain", 0.1)
              
 
-            if (engine.getValue("[Channel1]", "play_indicator")  1) {
+            if (engine.getValue("[Channel1]", "play_indicator") === 1) {
                 engine.setValue("[Auxiliary1]", "orientation", 2)
 
             } else
-            if (engine.getValue("[Channel2]", "play_indicator")  1) {
+            if (engine.getValue("[Channel2]", "play_indicator") === 1) {
                 engine.setValue("[Auxiliary1]", "orientation", 0)
             }
 
             MixstreamPro.WIFI = false
         } else
-        if (MixstreamPro.WIFI  false) {
+        if (MixstreamPro.WIFI === false) {
             engine.setValue("[Auxiliary1]", "master", 0)
             engine.setValue("[Auxiliary1]", "pregain", 0)
             MixstreamPro.WIFI = true
         }
     }
-    if (value = 0) { return }
+    if (value === 0) { return }
 }
 
  
@@ -511,7 +511,7 @@ MixstreamPro.cue_goto_toggle1 = function(channel, control, value, status, group)
 
         midi.sendShortMsg(status, 0x0C, 0x01);
 
-    if (value === 127  && trackloaded === true) {   
+    if (value === 127   && PlayStatus === false && trackloaded === true) {   
         if (MixstreamPro.Hotcue_Toggle1 === true) {
             MixstreamPro.Hotcue_Toggle1 = false
 
@@ -1601,6 +1601,7 @@ MixstreamPro.Effectbutton4 = function(channel, control, value, status, group) {
     } else
     if (value === 0) { return }
 }
+
 
 
 

@@ -1,5 +1,5 @@
 # Numark Mixstream Pro
-This repo holds the  **Numark Mixstream Pro & Pro GO** controller mapping. \
+This repo holds the  **Numark Mixstream Pro & Pro GO** controller mapping v17. \
 Here you can find the documentation : \
 https://github.com/audministrator/Numark-Mixstream-Pro/wiki/Numark-Mixstream-Pro-Documentation \
 This version has been tested on **MIXXX 2.5.0**
@@ -24,3 +24,6 @@ Here : https://mixxx.discourse.group/t/numark-mixstream-pro-mapping/24858/33?u=p
 * Saved loops can now be triggered from a hotcue
 * Default autoloop is doubled
 
+**Disclaimer :**
+This version does not mimic exact Engine OS behavior. \
+See documentation in order to uderstande the mapping features.

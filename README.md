@@ -27,4 +27,4 @@ Here : https://mixxx.discourse.group/t/numark-mixstream-pro-mapping/24858/33?u=p
 **Disclaimer :**
 See documentation in order to uderstande the mapping features. \
 This version does not mimic exact Engine OS behavior. \
-You can find the Engine OS compatible behavior version from this here [Github - DanielKinanhan](https://github.com/danielkinahan/numark-mixstream-pro-mixxx-mapping)
+You can find the Engine OS compatible behavior version here [Github - DanielKinanhan](https://github.com/danielkinahan/numark-mixstream-pro-mixxx-mapping)

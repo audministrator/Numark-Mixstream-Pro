@@ -836,3 +836,4 @@ MixstreamPro.effectButton = function (_channel, control, value, _status, _group)
         MixstreamPro.effectToggleSwitch(5, null, deck2Value, null, null);
     }
 }
+
